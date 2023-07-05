@@ -1,1 +1,1 @@
-# stock-market-data-pipeline-using-kafka
+# Stock-Market-Data-Engineering-Project-Using-Kafka
