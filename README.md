@@ -22,14 +22,11 @@ In this project, I have executed an End-To-End Data Engineering Project on Real-
 4. **AWS Glue Crawler**
    - To determine the schema of the data in s3 to help AWS Glue Catalog to create the table.
 
-5. **AWS Glue Crawler**
+5. **AWS Glue Data Catalog**
    - From the determined schema by the crawler Glue Data Catalog will create a table that we can query using AWS Athena.
 
 6. **AWS Athena**
    - To query data from the table.
-
-
-## Detailed step-by-step project exceustion 
      
    
 
