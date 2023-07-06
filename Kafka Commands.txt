@@ -1,3 +1,43 @@
+Installation
+
+1st update your Linux system 
+
+sudo yum update
+
+1. Install Java 8
+
+java -version
+sudo yum install java-1.8.0-openjdk
+java -version
+
+
+2. Install Kafka 
+
+## Download Kafka
+
+wget https://downloads.apache.org/kafka/3.3.1/kafka_2.12-3.3.1.tgz
+tar -xvf kafka_2.12-3.3.1.tgz
+
+# Changing folder name 
+mv kafka_2.12-3.3.1 kafka
+
+3. Changes in server.properties file of kafka
+
+cd kafka/
+
+Add public ip of ec2 server on which Kafka is installed so, Kafka will run on public ip
+
+Do 'sudo nano config/server.properties'
+
+look for ADVERTISED_LISTENERS Uncomment it in  & add public ip
+
+4. Assigning heap memory range 
+
+Run the following command in the home directory 
+export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"
+
+
+
 ## Kafka Commands 
 
 1. start zookeeper
