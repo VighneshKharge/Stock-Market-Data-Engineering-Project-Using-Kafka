@@ -33,4 +33,4 @@ In this project, I have executed an End-To-End Data Engineering Project on Real-
 - While creating a crawler make sure you create a Database where the table will be stored & IAM Role which allows the crawler to access the S3 bucket
 
 - Create a new s3 bucket so Athena can write query output to that bucket. Assign that s3 bucket path to Athena by;
-  Setting ---> manage ---> in 'Location of query result' select s3 bucket..
+  Setting ---> manage ---> in 'Location of query result' select s3 bucket.
